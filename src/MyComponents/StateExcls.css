@@ -1,0 +1,48 @@
+.main{
+    border:2px inset gold;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    row-gap: 20px;
+    padding: 5% 0%;
+    width:35%;
+    height:20%;
+    margin:auto auto;
+    line-height:3.5rem;
+    font-size: 1.3rem;
+    font-weight: bold;
+    box-shadow: 0px 0px 5px 4px silver;
+    border-radius: 8px;
+    animation: animi1 10s ease 0s infinite ;
+}
+.main button{
+    margin:0px 0.5em;
+    height:2.5rem;
+    font-size: 1rem;
+    cursor: pointer;
+    background-color: lightgoldenrodyellow;
+    border-radius: 7px;
+    color: green;
+    font-family:'Times New Roman', Times, serif;
+    border:1px inset gold;
+    
+}
+
+.main button:hover{
+    background-color: black;
+    color: white;
+    transition: all 2s ease 0s;
+}
+
+
+
+@keyframes animi1{
+        0%{background-color:rgb(212, 182, 187)}
+        20%{background-color:lightcyan}
+        40%{background-color:lightblue}
+        60%{background-color:rgb(175, 245, 175)}
+        80%{background-color:lightgrey}
+        100%{background-color:rgb(156, 215, 252)}
+
+    }
